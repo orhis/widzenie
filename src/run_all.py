@@ -22,7 +22,7 @@ def main():
     experiments = ["E1", "E2", "E3", "E4"]
     augs = ["A1", "A2", "A3", "A4"]
 
-    # parametry treningu (możesz zmienić potem)
+    # parametry treningu 
     epochs = 20 #######################################################
     lr = 1e-4
     batch_size = 128

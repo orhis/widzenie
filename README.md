@@ -1,6 +1,7 @@
 \# Porównanie skuteczności lekkich sieci CNN w zadaniu klasyfikacji
 
-
+Dataset link 
+https://drive.google.com/file/d/1KphIAlRMEsQbNFkaA7vGkCRVOfa63BV9/view?usp=drive_link
 
 Projekt zaliczeniowy z widzenia komputerowego: zaprojektowanie, wytrenowanie i porównanie konwolucyjnych sieci neuronowych (CNN) dla klasyfikacji wieloklasowej, z uwzględnieniem danych rzeczywistych i syntetycznych oraz różnych strategii augmentacji.
 
