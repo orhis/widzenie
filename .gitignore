@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# datasets
+data/prepared/
+data/raw/
+dataset*/
+**/*.webp
+
+# local
+venv/
+__pycache__/
+*.pyc

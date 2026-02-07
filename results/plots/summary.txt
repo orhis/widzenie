@@ -1,0 +1,30 @@
+SUMMARY (from results/results.csv)
+============================================================
+
+BEST by test_accuracy:
+{'run_id': 'efficientnet_b0__E1__A1', 'model': 'efficientnet_b0', 'experiment': 'E1', 'augmentation': 'A1', 'test_accuracy': 1.0, 'test_macro_f1': 1.0}
+
+WORST by test_accuracy:
+{'run_id': 'shufflenet_v2_x1_0__E4__A1', 'model': 'shufflenet_v2_x1_0', 'experiment': 'E4', 'augmentation': 'A1', 'test_accuracy': 0.3, 'test_macro_f1': 0.2175438596491227}
+
+MEAN by model:
+                    test_accuracy  test_macro_f1
+model                                           
+efficientnet_b0          0.856250       0.832736
+shufflenet_v2_x1_0       0.615625       0.556128
+
+MEAN by experiment:
+            test_accuracy  test_macro_f1
+experiment                              
+E1                0.88125       0.863904
+E3                0.86250       0.847859
+E2                0.65000       0.595122
+E4                0.55000       0.470842
+
+MEAN by augmentation:
+              test_accuracy  test_macro_f1
+augmentation                              
+A2                  0.76875       0.724234
+A3                  0.75625       0.694594
+A1                  0.71250       0.683577
+A4                  0.70625       0.675322

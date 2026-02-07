@@ -1,0 +1,23 @@
+AUTOMATYCZNA ANALIZA WYNIKÓW
+======================================================================
+
+1. Najlepszy i najgorszy przypadek
+----------------------------------------
+Najlepszy wynik uzyskano dla modelu efficientnet_b0 w eksperymencie E1 z augmentacją A1 (accuracy=1.000, macro-F1=1.000).
+Najgorszy wynik uzyskano dla modelu shufflenet_v2_x1_0 w eksperymencie E4 z augmentacją A1 (accuracy=0.300, macro-F1=0.218).
+
+2. Porównanie architektur CNN
+----------------------------------------
+Średnio najlepsze wyniki osiąga architektura efficientnet_b0, co wskazuje na jej lepszą zdolność generalizacji przy ograniczonej liczbie danych.
+
+3. Wpływ rodzaju danych treningowych (E1–E4)
+----------------------------------------
+Eksperyment E1 daje najlepsze wyniki średnie, natomiast E4 prowadzi do wyraźnego spadku jakości, co sugeruje niewystarczającą reprezentatywność danych.
+
+4. Wpływ augmentacji danych
+----------------------------------------
+Najlepsze średnie wyniki uzyskano dla augmentacji A2, podczas gdy A4 obniża jakość klasyfikacji, co może świadczyć o nadmiernej deformacji danych wejściowych.
+
+5. Wniosek ogólny
+----------------------------------------
+Połączenie danych rzeczywistych i syntetycznych oraz dobór umiarkowanej augmentacji prowadzi do najlepszej generalizacji modeli CNN. Zbyt agresywne przekształcenia mogą pogarszać wyniki na zbiorze testowym.
