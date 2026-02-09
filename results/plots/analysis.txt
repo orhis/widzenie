@@ -20,4 +20,5 @@ Najlepsze średnie wyniki uzyskano dla augmentacji A2, podczas gdy A4 obniża ja
 
 5. Wniosek ogólny
 ----------------------------------------
-Połączenie danych rzeczywistych i syntetycznych oraz dobór umiarkowanej augmentacji prowadzi do najlepszej generalizacji modeli CNN. Zbyt agresywne przekształcenia mogą pogarszać wyniki na zbiorze testowym.
+Połączenie danych rzeczywistych i syntetycznych oraz dobór umiarkowanej augmentacji prowadzi do najlepszej generalizacji modeli CNN. 
+Zbyt agresywne przekształcenia mogą pogarszać wyniki na zbiorze testowym.
